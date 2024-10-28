@@ -1,0 +1,71 @@
+<!--             CREACION DEL INICIO DE SESION (MODAL SING IN)             -->
+
+
+<section id="modal-Sing_In">
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content rounded-4 pb-5">
+                <!-- Botón "X" para cerrar el modal -->
+                <button type="button" class="btn-close ms-auto p-3" data-bs-dismiss="modal"
+                    aria-label="Cerrar"></button>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <!-- Columna izquierda: Imagen y texto -->
+                            <div class="col-md-6 d-flex align-items-center rounded-4"
+                                style="background-color: #dcdcdc; color: #333; padding: 35px;">
+                                <div class="text-center">
+                                    <img src="/IMAGENES/logo.jpeg" class="img-fluid rounded-4" alt="Imagen"
+                                        style="max-height: 160px;">
+                                    <h3 class="mt-5">¿No tienes una cuenta para iniciar sesión?</h3>
+                                    <p class=" p-3">Para poder
+                                        iniciar sesión, es necesario que tu niño se encuentre matriculado en nuestro
+                                        centro. Si aún no lo has hecho, te invitamos a contactarnos para más
+                                        información
+                                        sobre el proceso de matricula
+                                        y poder asi asegurar el bienestar y desarrollo de tu pequeño con nuestros
+                                        servicios.</p>
+
+                                    <div class="d-grid">
+                                        <button type="submit" class="btn btn-primary rounded-4">Contactar</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Columna derecha: Formulario de inicio de sesión -->
+
+                            <div class="col-md-6 py-5 ">
+
+                                <h3 class="text-center py-5">Iniciar Sesión</h3>
+                                <form>
+
+                                    <div class="mb-3">
+                                        <label for="email" class="form-label">Correo Electrónico</label>
+                                        <input type="email" class="form-control rounded-5" id="email"
+                                            placeholder="Ingresa tu correo">
+                                    </div>
+
+                                    <div class="mb-3 ">
+                                        <label for="password" class="form-label ">Contraseña</label>
+                                        <input type="password" class="form-control rounded-5" id="password"
+                                            placeholder="Ingresa tu contraseña">
+                                    </div>
+
+                                    <!-- Enlace de "Olvidaste tu contraseña?" -->
+                                    <div class="mb-3 text-center ">
+                                        <a href="" class="text-decoration-none">
+                                            ¿Olvidaste tu contraseña?
+                                        </a>
+                                    </div>
+
+                                    <div class="d-grid py-3">
+                                        <button type="submit" class="btn btn-primary rounded-4">Ingresar</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
